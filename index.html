@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <h2>V<span class="danger">CART</span></h2>
+                </div>
+                <div class="bx bx-" id="Closemenu"></div>
+            </div>
+            <div class="sidebar">
+                <a href="#" class="active"><i class="bx bxs-dashboard"></i> <h3>Dashboard</h3></a>
+                <a href="#"><i class="bx bx-user"></i> <h3>customers</h3></a>
+                <a href="#"><i class="bx bx-receipt"></i> <h3>Orders</h3></a>
+                <a href="#"><i class="bx bx-line-chart"></i> <h3>Analytics</h3></a>
+                <a href="#"><i class="bx bx-envelope"></i> <h3>Messages</h3></a>
+                <a href="#"><i class="bx bxl-product-hunt"></i> <h3>Products</h3></a>
+                <a href="#"><i class="bx bx-info-circle"></i> <h3>Reports</h3></a>
+                <a href="#"><i class="bx bx-cog"></i> <h3>Settings</h3></a>
+                <a href="#"><i class="bx bx-user"></i> <h3>Logout</h3></a>
+            </div>
+        </aside>
+
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <h3 id="current-date">12-03-2023</h3>
+            </div>
+            <div class="insights">
+                <div class="box">
+                    <i class="bx bx-detail"></i>
+                    <div class="middle">
+                        <h3>Total sales</h3>
+                        <h1>$23,345</h1>
+                    </div>
+                    <small class="text-muted">Updated every week</small>
+                </div>
+                <div class="box">
+                    <i class="bx bxl-product-hunt"></i>
+                    <div class="middle">
+                        <h3>Total products</h3>
+                        <h1>3345</h1>
+                    </div>
+                    <small class="text-muted">Updated every week</small>
+                </div>
+                <div class="box">
+                    <i class="bx bx-receipt"></i>
+                    <div class="middle">
+                        <h3>Total daily order</h3>
+                        <h1>345</h1>
+                    </div>
+                    <small class="text-muted">Updated every 24hrs</small>
+                </div>
+            </div>
+            <!--RECENT ORDERS-->
+            <div class="recent-orders">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product name</th>
+                            <th>Product no</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Foldable mini drone</td>
+                            <td>1204</td>
+                            <td>due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Air Conditioner</td>
+                            <td>1204</td>
+                            <td>paid</td>
+                            <td class="success">completed</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Camp Set</td>
+                            <td>1204</td>
+                            <td>cancelled</td>
+                            <td class="danger">cancelled</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Bag Pack</td>
+                            <td>1204</td>
+                            <td>paid</td>
+                            <td class="success">completed</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Power Bank</td>
+                            <td>1204</td>
+                            <td>paid</td>
+                            <td class="success">completed</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Rechargable Lamp</td>
+                            <td>1204</td>
+                            <td>cancelled</td>
+                            <td class="danger">cancelled</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Curtains</td>
+                            <td>1204</td>
+                            <td>due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="">Show all</a>
+            </div>
+        </main>
+
+        <div class="right">
+            <div class="top">
+                <div class="themebtn">
+                    <i class="bx bxs-moon"></i>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p class="text-muted">Hey, <b>Vincent</b></p>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="image/pexels-daniel-xavier-1212984.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="messages">
+                <h2>Recent messages</h2>
+                <div class="message">
+                    <div class="msg">
+                        <div class="profile-photo">
+                            <img src="image/pexels-justin-shaifer-1222271 (1).jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p><b>David</b> I have recieved my order</p>
+                            <small class="text-muted">Just now</small>
+                        </div>
+                    </div>
+                    <div class="msg">
+                        <div class="profile-photo">
+                            <img src="image/pexels-spencer-selover-428333.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p><b>William</b> I have recieved my order</p>
+                            <small class="text-muted">10 minutes</small>
+                        </div>
+                    </div>
+                    <div class="msg">
+                        <div class="profile-photo">
+                            <img src="image/pexels-godisable-jacob-871495.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p><b>Sarah</b> I have recieved my order</p>
+                            <small class="text-muted">15 minutes</small>
+                        </div>
+                    </div>
+                    <div class="msg">
+                        <div class="profile-photo">
+                            <img src="image/pexels-andrea-piacquadio-846741.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p><b>Austin</b> I have recieved my order</p>
+                            <small class="text-muted">30 minutes</small>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="sales">
+                <h2>Sales Analytics</h2>
+                <div class="item">
+                    <div class="icon">
+                        <i class="bx bxs-shopping-bag"></i>
+                    </div>
+                    <div class="text">
+                        <div class="info">
+                            <h3>Online sales</h3>
+                            <small class="text-muted">last 24hr</small>
+                        </div>
+                        <h3 class="success">+46% <i class="bx bxs-chevrons-up"></i></h3>
+                        <h3>1345</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <i class="bx bxs-shopping-bag"></i>
+                    </div>
+                    <div class="text">
+                        <div class="info">
+                            <h3>On shop sales</h3>
+                            <small class="text-muted">last 24hr</small>
+                        </div>
+                        <h3 class="danger">-20% <i class="bx bxs-chevrons-down"></i></h3>
+                        <h3>1345</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <i class="bx bxs-ship"></i>
+                    </div>
+                    <div class="text">
+                        <div class="info">
+                            <h3>Shipping</h3>
+                            <small class="text-muted">last week</small>
+                        </div>
+                        <h3 class="success">+30% <i class="bx bxs-chevrons-up"></i></h3>
+                        <h3>1345</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
